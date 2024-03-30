@@ -1,0 +1,124 @@
+.div1{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(23, 33, 41);
+    border-radius: 50%;
+    box-shadow: 2px 5px 18px 5px;
+
+}
+
+@media screen and (max-width:400px) {
+
+    .div1{
+        background-color: blue;
+    }
+    
+    
+}
+
+
+@media screen and (min-width:400px) and (max-width:1000px)  {
+
+    .div1{
+        background-color: yellow
+    }
+    
+    
+}
+
+.div1:hover{
+    background-color: blue;
+
+}
+
+.classmere{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+.div2{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(65, 147, 215);
+    border-radius: 50%;
+    box-shadow: 2px 5px 18px 5px;
+
+}
+
+.div2:hover{
+    opacity: 50%;
+}
+
+.div3{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 50%;
+    box-shadow: 2px 5px 18px 5px;
+
+}
+
+.div3:hover{
+    cursor: pointer;
+}
+
+.div4{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(71, 11, 91);
+    border-radius: 50%;
+    box-shadow: 2px 5px 18px 5px;
+
+}
+
+.div4:hover{
+    cursor: grab;
+    width: 500px;
+}
+
+.div5{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(113, 196, 18);
+    border-radius: 50%;
+    box-shadow: 2px 5px 18px 5px;
+
+}
+
+.div5:hover{
+
+display: none;
+    
+}
+
+
+
+h1{
+    text-align: center;
+    margin-top: 5rem;
+    color: brown;
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+
+@media screen and (max-width:400px) {
+
+    h1{
+        color: blue;
+    }
+    
+    
+}
+
+
+@media screen and (min-width:400px) and (max-width:1000px)  {
+
+    h1{
+        color: yellow
+    }
+    
+    
+}
